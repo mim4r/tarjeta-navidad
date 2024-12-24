@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta Interactiva de Navidad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card" id="card">
+        <div class="front" id="front">
+            <h1 class="greeting">Angel y Noa, hagan clic para abrir este regalo</h1>
+            <img src="images/regalo.gif" alt="GIF de Regalo" class="gif-regalo">
+        </div>
+        <div class="back" id="back">
+            <img src="images/gif-navidad.gif" alt="Árbol de Navidad animado" class="gif-navidad" id="gif">
+            <h2 class="sorpresa">¡Feliz Navidad!</h2>
+            <p class="message">Mamá</p>
+        </div>
+    </div>
+
+    <audio id="audio" preload="auto">
+        <source src="audio/navidad.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
